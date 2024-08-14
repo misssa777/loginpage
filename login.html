@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .body{
+            height: 100vh;
+            width: auto;
+            background-image: url(https://img.freepik.com/free-vector/fluid-gradient-wavy-background_23-2149111799.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 17px;
+        }
+        .container{
+            margin: 30px ;
+        }
+        .loginpage{
+            border: 1px solid black;
+            border-radius: 50px;
+            background-color: rgba(40, 10, 75, 0.3);
+            width:320px;
+            height: 350px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0px 2px 100px #000;
+        }
+        .loginpage h2{
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 25px;
+            font-family: "Poppins", sans-serif;
+            
+        }
+        .loginpage a{
+            text-decoration: none;
+            color: plum
+        }
+        
+        .loginpage a:hover{
+            text-decoration: underline;
+        }
+        
+        .text-input{
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: "Poppins", sans-serif;
+        }
+        .text-input input{
+            padding: 2px;
+        }
+        .loginpage button{
+            margin-bottom: 15px;
+            border: none;
+            background-color: plum;
+            height: 30px;
+            width: 100px;
+            border-radius: 162px;
+            cursor: pointer;
+            font-family: "Poppins", sans-serif;
+        
+            transition: background-color .4s ease;
+        }
+        
+        .loginpage button:hover{
+            background-color:purple;
+        }
+        .loginpage p {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+    <div class="loginpage">
+        <div class="container">
+        <h2>Login</h2>
+        <form>
+            <div class="text-input">
+                <label for="username"><span class="material-symbols-outlined">
+                    person
+                    </span></label>
+                <input type="text" class="username" name="username" placeholder="Username">
+            </div>
+            <div class="text-input">
+                <label for="password"><span class="material-symbols-outlined">
+                    lock
+                    </span></label>
+                <input type="password" class="password" name="password" placeholder="Password"> 
+            </div> 
+            <button >Log in</button>
+        </form>
+        <p>Don't have an account? <br> <a href="sign_up.html">Sign up</a></p>
+    </div>
+        
+   </div>
+</div>
+    
+</body>
+</html>
